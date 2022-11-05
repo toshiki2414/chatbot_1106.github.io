@@ -20,7 +20,7 @@ function checkText() {
 
 function jsontest(){ 
 	$.ajax({
-          url: "./json/text.json",
+          url: "./text.json",
           type: "GET",
           dataType: "json",
         })
@@ -49,7 +49,7 @@ function jsontest(){
 
 function Artifact(N){ 
 	$.ajax({
-          url: "./json/text2.json",
+          url: "./text2.json",
           type: "GET",
           dataType: "json",
         })
