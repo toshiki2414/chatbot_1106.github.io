@@ -1,0 +1,57 @@
+[
+    	{
+    		"sum":9
+    	},
+        {
+        	"name":"アルバイト", 
+        	"type":"ent",
+        	"value":1
+        },
+        
+         {
+        	"name":"Name of アルバイト",
+        	"type":"ent",
+        	"value":1
+        },
+        
+        {
+        	"name":"アルバイト.アルバイトID",
+        	"type":"att",
+        	"value":1
+        },
+        
+        {
+        	"name":"アルバイト.氏名",
+        	"type":"att",
+        	"value":1
+        },
+        {
+        	"name":"アルバイト--店舗",
+        	"type":"rel",
+        	"value":1
+        },
+        
+        {
+        	"name":"アルバイト--店舗.アルバイトside",
+        	"type":"mul",
+        	"value":0
+        },
+        
+        {
+        	"name":"アルバイト--店舗.店舗side",
+        	"type":"mul",
+        	"value":1
+        },
+        
+        {
+        	"name":"店舗",
+        	"type":"ent",
+        	"value":0
+        },
+        {
+        	"name":"Name of 店舗",
+        	"type":"ent",
+        	"value":0
+        }
+    
+]
