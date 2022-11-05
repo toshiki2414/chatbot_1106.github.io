@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>UI</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="js/vendor/jquery-1.10.2.min.js"></script>
+	<script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+
+<div id="chatbot">
+<div id="container">
+	<h1>簡単なチャットボット(仮)</h1>
+
+	<div class="content">
+		
+		<ul id= "chat-ul">
+		
+		<li class="message-area you">
+			<div class="user-image" style="background-image: url(img.jpg);"></div>
+			<div class="message">メッセージを送信してもそのまま帰ってくるだけだぞ。<span class="date">2020.12.12 21:12</span></div>
+		</li>
+		<li class="message-area me">
+		<div class="mymessage">うん<span class="date">2020.12.12 21:11</span></div>
+		</li>
+		
+		</ul>
+	</div>
+	<div class="form">
+			<input type="text" class="text" id="mytext" placeholder="メッセージ">
+			<button type="button" class="submit" value="Send" onclick="formsend()">送信</button>
+	</div>
+	
+	</div>
+<div class="chara" style="background-image: url(img.jpg);"></div>
+<div class="btns">
+			<input type="button" value="結果を知りたい" id="button1" onclick="Artifact(0)">
+			<input type="button" value="苦手を知りたい" id="button2" onclick="Artifact(1)">
+			<input type="button" value="成果物が見たい" id="button3" onclick="exapmple()">
+	</div>
+</div>
+
+
+</body>
+</html>
